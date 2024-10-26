@@ -3795,6 +3795,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 66.04) (xy 158.75 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20baf5bf-f921-48e5-b986-58dd7e46b6be")
+	)
+	(wire
+		(pts
 			(xy 306.07 129.54) (xy 304.8 129.54)
 		)
 		(stroke
@@ -4732,6 +4742,16 @@
 			(type default)
 		)
 		(uuid "8d2e8643-d344-4e7d-9d32-222df1c41b5c")
+	)
+	(wire
+		(pts
+			(xy 92.71 20.32) (xy 92.71 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904d47e7-8fa9-43d1-bf59-557aea529c63")
 	)
 	(wire
 		(pts
@@ -5725,6 +5745,7 @@
 	)
 	(label "PWM_NMOS6"
 		(at 199.39 199.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5735,6 +5756,7 @@
 	)
 	(label "PWM_NMOS5"
 		(at 199.39 204.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5866,6 +5888,7 @@
 	)
 	(label "NMOS-FAN0"
 		(at 190.5 64.77 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5898,6 +5921,7 @@
 	)
 	(label "PWM_NMOS7"
 		(at 199.39 196.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5930,6 +5954,7 @@
 	)
 	(label "PWM_NMOS3"
 		(at 199.39 209.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6050,6 +6075,7 @@
 	)
 	(label "PWM_NMOS1"
 		(at 199.39 217.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6104,6 +6130,7 @@
 	)
 	(label "PWM_NMOS2"
 		(at 199.39 212.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6224,6 +6251,7 @@
 	)
 	(label "PWM_NMOS4"
 		(at 199.39 207.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6399,6 +6427,7 @@
 	)
 	(label "FAN_TACHO0"
 		(at 180.34 50.8 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6420,6 +6449,7 @@
 	)
 	(label "PWM_NMOS0"
 		(at 199.39 219.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
