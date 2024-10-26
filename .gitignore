@@ -1,3 +1,5 @@
 
 .gitattributes
 UFC-Backups/
+fp-info-cache
+~UFC.kicad_sch.lck
