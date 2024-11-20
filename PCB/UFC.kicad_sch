@@ -4170,6 +4170,18 @@
 		(uuid "0a2e7fb2-c62a-4d0c-a534-23ddb1649b1f")
 	)
 	(junction
+		(at 156.21 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c118bdd-af66-4992-9225-804eb1807bb8")
+	)
+	(junction
+		(at 156.21 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e5f8df5-8451-4eab-8d6a-d8f2b1a2da1e")
+	)
+	(junction
 		(at 259.08 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4248,10 +4260,28 @@
 		(uuid "4850b4f7-2625-4619-9772-6ce9e68ca315")
 	)
 	(junction
+		(at 156.21 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "498dd45a-4a19-44bc-822d-6eafeb0aea62")
+	)
+	(junction
 		(at 69.85 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "540892c2-459a-4c98-8667-b464bd76eb86")
+	)
+	(junction
+		(at 156.21 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "563aa9f7-3967-47d6-aa06-8ea7cb52c70f")
+	)
+	(junction
+		(at 156.21 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67aa91b3-1ec5-4e7e-ae24-0d5756f3acf9")
 	)
 	(junction
 		(at 190.5 64.77)
@@ -4290,6 +4320,12 @@
 		(uuid "850aa0b2-937b-458b-b5b2-3d757d0fa72b")
 	)
 	(junction
+		(at 156.21 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8749be92-b3ca-4da7-942d-edcf80f6060c")
+	)
+	(junction
 		(at 270.51 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4308,6 +4344,12 @@
 		(uuid "90d25734-aba7-4650-a58d-5217447e3760")
 	)
 	(junction
+		(at 156.21 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90e37ece-5ea0-459b-ab5f-58469df99026")
+	)
+	(junction
 		(at 69.85 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4318,6 +4360,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95b23f59-b93b-4391-8d4f-b27e7aee9e6c")
+	)
+	(junction
+		(at 156.21 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99deb740-bc18-4127-be9c-dbe19a53b9c8")
 	)
 	(junction
 		(at 327.66 129.54)
@@ -4332,10 +4380,46 @@
 		(uuid "b1c910dd-e420-4cdf-9f43-fb2aa912b70c")
 	)
 	(junction
+		(at 156.21 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc6674bd-0787-4f52-8238-b82804a595d4")
+	)
+	(junction
+		(at 156.21 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc946b1a-140e-4519-b282-87275992eef4")
+	)
+	(junction
+		(at 156.21 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c10c55bd-e782-40b8-b763-0bf9f3d00ea3")
+	)
+	(junction
 		(at 190.5 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c526f811-c1b1-46ed-a7f1-a764c1e01fe7")
+	)
+	(junction
+		(at 156.21 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9416734-771c-4a09-a81c-a6cf0528baa7")
+	)
+	(junction
+		(at 156.21 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c978dfe4-7ffe-4ccc-9551-97d904454490")
+	)
+	(junction
+		(at 156.21 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cefb926b-e674-4daa-9e48-d936fc4cd7aa")
 	)
 	(junction
 		(at 372.11 236.22)
@@ -4362,10 +4446,22 @@
 		(uuid "e0b57087-4718-439b-92f1-e6f4a22a0707")
 	)
 	(junction
+		(at 156.21 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8960dc6-7548-4bc1-8f51-d4bd32479809")
+	)
+	(junction
 		(at 372.11 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd97a0a9-fbfc-48c6-b505-0fb486b94fea")
+	)
+	(junction
+		(at 156.21 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe7183b6-3fd7-4012-9743-d50db3f2a50b")
 	)
 	(no_connect
 		(at 247.65 212.09)
@@ -4408,7 +4504,7 @@
 		(uuid "dd3e472b-7e17-473b-9fc1-e59b53db56bf")
 	)
 	(bus_entry
-		(at 102.87 158.75)
+		(at 102.87 154.94)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -4471,7 +4567,7 @@
 		(uuid "2405091f-5139-456c-9f74-d2967a7a617c")
 	)
 	(bus_entry
-		(at 102.87 212.09)
+		(at 102.87 208.28)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -4534,7 +4630,7 @@
 		(uuid "3238705a-3f64-43a5-8436-97bc7f350208")
 	)
 	(bus_entry
-		(at 102.87 185.42)
+		(at 102.87 181.61)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -4588,7 +4684,7 @@
 		(uuid "53c5618f-a439-42b8-9832-82e4c22de744")
 	)
 	(bus_entry
-		(at 102.87 194.31)
+		(at 102.87 190.5)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -4687,7 +4783,7 @@
 		(uuid "6edcb7f2-36a7-4983-9da7-b23cfe410a23")
 	)
 	(bus_entry
-		(at 102.87 149.86)
+		(at 102.87 146.05)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -4741,7 +4837,7 @@
 		(uuid "7909a9fa-eb24-4589-8d91-2cc34d5cc773")
 	)
 	(bus_entry
-		(at 102.87 265.43)
+		(at 102.87 261.62)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -4858,7 +4954,7 @@
 		(uuid "9c182ae7-ed58-4eec-be8c-21c3dbe7904d")
 	)
 	(bus_entry
-		(at 102.87 229.87)
+		(at 102.87 226.06)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -4948,7 +5044,7 @@
 		(uuid "b3dc3d2d-07a7-43bd-9ced-02d1f892c8c2")
 	)
 	(bus_entry
-		(at 102.87 140.97)
+		(at 102.87 137.16)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -4957,7 +5053,7 @@
 		(uuid "b4b7c5c0-f1b8-4299-92b3-6d674cebd5da")
 	)
 	(bus_entry
-		(at 102.87 203.2)
+		(at 102.87 199.39)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5029,7 +5125,7 @@
 		(uuid "ce8de23b-fbbd-47b3-92e9-63fe4a9093c5")
 	)
 	(bus_entry
-		(at 102.87 167.64)
+		(at 102.87 163.83)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5038,7 +5134,7 @@
 		(uuid "d26df5df-4a02-4122-a3d0-55c7066de1ec")
 	)
 	(bus_entry
-		(at 102.87 247.65)
+		(at 102.87 243.84)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5083,7 +5179,7 @@
 		(uuid "e027c80f-aea5-457c-82fa-94c736f62f50")
 	)
 	(bus_entry
-		(at 102.87 132.08)
+		(at 102.87 128.27)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5092,7 +5188,7 @@
 		(uuid "e222845c-bd09-4480-84df-d9a8528becb1")
 	)
 	(bus_entry
-		(at 102.87 238.76)
+		(at 102.87 234.95)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5119,7 +5215,7 @@
 		(uuid "e7cbb883-5a6d-4c2f-a383-c4a6b8b55a46")
 	)
 	(bus_entry
-		(at 102.87 256.54)
+		(at 102.87 252.73)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5137,7 +5233,7 @@
 		(uuid "ef482038-3217-48ab-8f77-274d329c01dd")
 	)
 	(bus_entry
-		(at 102.87 176.53)
+		(at 102.87 172.72)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5146,7 +5242,7 @@
 		(uuid "ef74719d-16c3-4e8b-b927-fa3103586412")
 	)
 	(bus_entry
-		(at 102.87 220.98)
+		(at 102.87 217.17)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5291,7 +5387,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 194.31) (xy 102.87 203.2)
+			(xy 102.87 190.5) (xy 102.87 199.39)
 		)
 		(stroke
 			(width 0)
@@ -5381,6 +5477,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 241.3) (xy 156.21 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9a8ec0-b2c8-49d4-92c6-f5acb6b41711")
+	)
+	(wire
+		(pts
 			(xy 195.58 64.77) (xy 190.5 64.77)
 		)
 		(stroke
@@ -5421,7 +5527,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 245.11) (xy 140.97 245.11)
+			(xy 105.41 241.3) (xy 140.97 241.3)
 		)
 		(stroke
 			(width 0)
@@ -5468,6 +5574,16 @@
 			(type default)
 		)
 		(uuid "154da0f1-0ab7-411b-a043-a19481b1d4a7")
+	)
+	(wire
+		(pts
+			(xy 148.59 223.52) (xy 156.21 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f3b8b5-3790-49e0-bd08-d870e328a89e")
 	)
 	(bus
 		(pts
@@ -5571,6 +5687,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 214.63) (xy 156.21 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1982f717-7abd-4ae7-a249-730520ee258e")
+	)
+	(wire
+		(pts
 			(xy 304.8 48.26) (xy 304.8 50.8)
 		)
 		(stroke
@@ -5601,6 +5727,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 161.29) (xy 156.21 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209af55f-d862-4f72-8b33-50e327d99548")
+	)
+	(wire
+		(pts
 			(xy 306.07 129.54) (xy 304.8 129.54)
 		)
 		(stroke
@@ -5621,7 +5757,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 265.43) (xy 102.87 270.51)
+			(xy 102.87 261.62) (xy 102.87 266.7)
 		)
 		(stroke
 			(width 0)
@@ -5658,6 +5794,16 @@
 			(type default)
 		)
 		(uuid "22c86891-3c38-4802-8f39-81f3507c2ab2")
+	)
+	(wire
+		(pts
+			(xy 156.21 274.32) (xy 156.21 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24236e1a-f7a1-44b4-ab59-547766d5f22a")
 	)
 	(bus
 		(pts
@@ -5739,6 +5885,16 @@
 		)
 		(uuid "2bd5d3d8-92a5-48f2-a700-ec5561c6db1b")
 	)
+	(wire
+		(pts
+			(xy 137.16 161.29) (xy 156.21 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0c7a29-bad2-4ba4-95fb-d04eceaf7a0c")
+	)
 	(bus
 		(pts
 			(xy 93.98 217.17) (xy 93.98 219.71)
@@ -5791,7 +5947,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 147.32) (xy 129.54 147.32)
+			(xy 105.41 143.51) (xy 129.54 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5831,7 +5987,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 165.1) (xy 129.54 165.1)
+			(xy 105.41 161.29) (xy 129.54 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5848,6 +6004,16 @@
 			(type default)
 		)
 		(uuid "32c4c8d9-6401-4851-bbc9-b125a5632c83")
+	)
+	(wire
+		(pts
+			(xy 156.21 170.18) (xy 156.21 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34fddfcb-2be4-4ae2-a691-5ab70d348c2d")
 	)
 	(wire
 		(pts
@@ -5878,6 +6044,16 @@
 			(type default)
 		)
 		(uuid "36c58e90-db85-4cc0-a023-3ed35e94183d")
+	)
+	(wire
+		(pts
+			(xy 156.21 250.19) (xy 156.21 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d03ae2-542c-49a3-9310-8326e6beb4ea")
 	)
 	(wire
 		(pts
@@ -5951,7 +6127,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 227.33) (xy 140.97 227.33)
+			(xy 105.41 223.52) (xy 140.97 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6059,6 +6235,16 @@
 		)
 		(uuid "435f2e0c-6f55-4158-aee5-785d639aa510")
 	)
+	(wire
+		(pts
+			(xy 156.21 196.85) (xy 156.21 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b03405-f1be-4b01-87ff-e46ca608f909")
+	)
 	(bus
 		(pts
 			(xy 93.98 209.55) (xy 93.98 212.09)
@@ -6161,7 +6347,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 173.99) (xy 140.97 173.99)
+			(xy 105.41 170.18) (xy 140.97 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6211,7 +6397,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 138.43) (xy 140.97 138.43)
+			(xy 105.41 134.62) (xy 140.97 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6321,7 +6507,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 247.65) (xy 102.87 256.54)
+			(xy 102.87 243.84) (xy 102.87 252.73)
 		)
 		(stroke
 			(width 0)
@@ -6338,6 +6524,16 @@
 			(type default)
 		)
 		(uuid "5b8e6448-5c40-4b8b-9107-4cbeaa902861")
+	)
+	(wire
+		(pts
+			(xy 137.16 232.41) (xy 156.21 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c13cd27-ef1e-4dbf-9389-18a694a1f81b")
 	)
 	(wire
 		(pts
@@ -6361,7 +6557,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 132.08) (xy 102.87 140.97)
+			(xy 102.87 128.27) (xy 102.87 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6401,6 +6597,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 259.08) (xy 156.21 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605b1a63-28ab-43e2-8c6c-f488ff6ff741")
+	)
+	(wire
+		(pts
 			(xy 359.41 203.2) (xy 359.41 209.55)
 		)
 		(stroke
@@ -6418,6 +6624,16 @@
 			(type default)
 		)
 		(uuid "61bc8a59-a35d-4cef-a5fc-ad715a033311")
+	)
+	(wire
+		(pts
+			(xy 148.59 134.62) (xy 156.21 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b5bee2-a502-4ed3-b0b0-6b34b1feae4d")
 	)
 	(bus
 		(pts
@@ -6438,6 +6654,16 @@
 			(type default)
 		)
 		(uuid "65ac0843-e2c8-4a61-bf16-a521fed60c8e")
+	)
+	(wire
+		(pts
+			(xy 156.21 187.96) (xy 156.21 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65cbf90a-011f-4389-b3cf-f77ddb9c8961")
 	)
 	(bus
 		(pts
@@ -6491,7 +6717,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 156.21) (xy 140.97 156.21)
+			(xy 105.41 152.4) (xy 140.97 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6781,7 +7007,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 209.55) (xy 140.97 209.55)
+			(xy 105.41 205.74) (xy 140.97 205.74)
 		)
 		(stroke
 			(width 0)
@@ -6871,7 +7097,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 158.75) (xy 102.87 167.64)
+			(xy 102.87 154.94) (xy 102.87 163.83)
 		)
 		(stroke
 			(width 0)
@@ -6921,7 +7147,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 236.22) (xy 129.54 236.22)
+			(xy 105.41 232.41) (xy 129.54 232.41)
 		)
 		(stroke
 			(width 0)
@@ -7061,6 +7287,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 259.08) (xy 156.21 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897964e1-f7cc-4e54-a35e-45430dfbedf1")
+	)
+	(wire
+		(pts
 			(xy 372.11 224.79) (xy 372.11 223.52)
 		)
 		(stroke
@@ -7101,6 +7337,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 125.73) (xy 156.21 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0bfbc2-c172-4730-a349-115e005d43e4")
+	)
+	(wire
+		(pts
 			(xy 224.79 120.65) (xy 224.79 119.38)
 		)
 		(stroke
@@ -7131,7 +7377,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 140.97) (xy 102.87 149.86)
+			(xy 102.87 137.16) (xy 102.87 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7141,7 +7387,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 238.76) (xy 102.87 247.65)
+			(xy 102.87 234.95) (xy 102.87 243.84)
 		)
 		(stroke
 			(width 0)
@@ -7181,7 +7427,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 182.88) (xy 129.54 182.88)
+			(xy 105.41 179.07) (xy 129.54 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7201,7 +7447,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 200.66) (xy 129.54 200.66)
+			(xy 137.16 143.51) (xy 156.21 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95443390-039a-4189-b8ee-911283454b7e")
+	)
+	(wire
+		(pts
+			(xy 105.41 196.85) (xy 129.54 196.85)
 		)
 		(stroke
 			(width 0)
@@ -7281,6 +7537,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 152.4) (xy 156.21 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b547d49-28f7-4625-95b3-05322f58fb09")
+	)
+	(wire
+		(pts
 			(xy 281.94 64.77) (xy 281.94 78.74)
 		)
 		(stroke
@@ -7301,7 +7567,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 203.2) (xy 102.87 212.09)
+			(xy 102.87 199.39) (xy 102.87 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7321,7 +7587,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 229.87) (xy 102.87 238.76)
+			(xy 102.87 226.06) (xy 102.87 234.95)
 		)
 		(stroke
 			(width 0)
@@ -7361,6 +7627,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 187.96) (xy 156.21 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05a27d1-be51-4b0c-a1f1-2e065b7b56bc")
+	)
+	(wire
+		(pts
 			(xy 190.5 129.54) (xy 190.5 135.89)
 		)
 		(stroke
@@ -7381,7 +7657,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 191.77) (xy 140.97 191.77)
+			(xy 105.41 187.96) (xy 140.97 187.96)
 		)
 		(stroke
 			(width 0)
@@ -7489,9 +7765,19 @@
 		)
 		(uuid "ad8ec9d8-adb9-4e00-a247-7eaaafe1e0fe")
 	)
+	(wire
+		(pts
+			(xy 148.59 170.18) (xy 156.21 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbe9cb8-4ed7-4862-a1e4-b9f55c622668")
+	)
 	(bus
 		(pts
-			(xy 102.87 149.86) (xy 102.87 158.75)
+			(xy 102.87 146.05) (xy 102.87 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7621,6 +7907,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 223.52) (xy 156.21 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ab7736-5241-4905-8605-53b4e3d2e2bf")
+	)
+	(wire
+		(pts
 			(xy 250.19 200.66) (xy 250.19 207.01)
 		)
 		(stroke
@@ -7628,6 +7924,16 @@
 			(type default)
 		)
 		(uuid "b92e8ac5-103e-494b-921c-8bd219c073db")
+	)
+	(wire
+		(pts
+			(xy 137.16 214.63) (xy 156.21 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa5dd1d-7ba1-4604-9a3d-5fb44e3d0dbb")
 	)
 	(wire
 		(pts
@@ -7641,7 +7947,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 256.54) (xy 102.87 265.43)
+			(xy 102.87 252.73) (xy 102.87 261.62)
 		)
 		(stroke
 			(width 0)
@@ -7689,9 +7995,19 @@
 		)
 		(uuid "c108f3a0-105f-4942-b51a-342af53ab142")
 	)
+	(wire
+		(pts
+			(xy 156.21 265.43) (xy 156.21 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c170d5c3-9d6c-4c6f-8f6d-d6ccd47f80cf")
+	)
 	(bus
 		(pts
-			(xy 102.87 167.64) (xy 102.87 176.53)
+			(xy 102.87 163.83) (xy 102.87 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7738,6 +8054,26 @@
 			(type default)
 		)
 		(uuid "c31a0c40-3387-4979-8b9f-a2b58176f5c2")
+	)
+	(wire
+		(pts
+			(xy 137.16 196.85) (xy 156.21 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3994158-b06e-4c30-b813-025ef7caff98")
+	)
+	(wire
+		(pts
+			(xy 156.21 205.74) (xy 156.21 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6416e3b-94f7-4ca4-872d-0006906160f7")
 	)
 	(wire
 		(pts
@@ -7798,6 +8134,16 @@
 			(type default)
 		)
 		(uuid "cba0d13b-a8a0-4272-9698-76e8841ef86a")
+	)
+	(wire
+		(pts
+			(xy 148.59 152.4) (xy 156.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbebda2c-7acb-4895-993a-ba8e1512e8b4")
 	)
 	(wire
 		(pts
@@ -7881,13 +8227,43 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 129.54) (xy 129.54 129.54)
+			(xy 105.41 125.73) (xy 129.54 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d46fe602-b653-43e7-aec4-9fad63791a52")
+	)
+	(wire
+		(pts
+			(xy 156.21 179.07) (xy 156.21 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d488b9c9-d3fc-491f-aea3-34d2017cd5e5")
+	)
+	(wire
+		(pts
+			(xy 156.21 134.62) (xy 156.21 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d065de-5b89-4d44-bc7a-d992d5b3b6a0")
+	)
+	(wire
+		(pts
+			(xy 137.16 250.19) (xy 156.21 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d97be3-0c0c-462a-b6cf-f96246f59754")
 	)
 	(wire
 		(pts
@@ -7909,6 +8285,16 @@
 		)
 		(uuid "d9b071e7-16c6-4e62-960e-b47bba7705ca")
 	)
+	(wire
+		(pts
+			(xy 137.16 179.07) (xy 156.21 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa382f8-7448-4693-92e9-28e756a7edbc")
+	)
 	(bus
 		(pts
 			(xy 261.62 81.28) (xy 284.48 81.28)
@@ -7921,7 +8307,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 262.89) (xy 140.97 262.89)
+			(xy 105.41 259.08) (xy 140.97 259.08)
 		)
 		(stroke
 			(width 0)
@@ -8001,6 +8387,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 143.51) (xy 156.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df439151-1c54-4b07-bbfc-23814ee28791")
+	)
+	(wire
+		(pts
 			(xy 309.88 66.04) (xy 309.88 64.77)
 		)
 		(stroke
@@ -8008,6 +8404,16 @@
 			(type default)
 		)
 		(uuid "e0707b92-4aee-425c-9c50-b56eec56fb8e")
+	)
+	(wire
+		(pts
+			(xy 156.21 125.73) (xy 156.21 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a25f02-ac2b-4f7e-816c-3c03de41088d")
 	)
 	(bus
 		(pts
@@ -8031,6 +8437,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 265.43) (xy 156.21 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e52399e3-a955-4e7b-9ff0-0cb175bbe58d")
+	)
+	(wire
+		(pts
 			(xy 355.6 64.77) (xy 350.52 64.77)
 		)
 		(stroke
@@ -8038,6 +8454,16 @@
 			(type default)
 		)
 		(uuid "e5785e76-0446-40cc-8fb8-cc70573a6acc")
+	)
+	(wire
+		(pts
+			(xy 156.21 232.41) (xy 156.21 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5870f34-006c-4408-ab52-50bca95af9fc")
 	)
 	(wire
 		(pts
@@ -8101,7 +8527,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 176.53) (xy 102.87 185.42)
+			(xy 102.87 172.72) (xy 102.87 181.61)
 		)
 		(stroke
 			(width 0)
@@ -8111,7 +8537,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 254) (xy 129.54 254)
+			(xy 105.41 250.19) (xy 129.54 250.19)
 		)
 		(stroke
 			(width 0)
@@ -8131,7 +8557,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 185.42) (xy 102.87 194.31)
+			(xy 102.87 181.61) (xy 102.87 190.5)
 		)
 		(stroke
 			(width 0)
@@ -8198,6 +8624,16 @@
 			(type default)
 		)
 		(uuid "ef9c030d-880b-4481-b3a4-74b4e0a65de2")
+	)
+	(wire
+		(pts
+			(xy 148.59 205.74) (xy 156.21 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a13ac4-bdfd-4c05-8541-47d06956b197")
 	)
 	(wire
 		(pts
@@ -8281,7 +8717,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 220.98) (xy 102.87 229.87)
+			(xy 102.87 217.17) (xy 102.87 226.06)
 		)
 		(stroke
 			(width 0)
@@ -8301,7 +8737,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 218.44) (xy 129.54 218.44)
+			(xy 105.41 214.63) (xy 129.54 214.63)
 		)
 		(stroke
 			(width 0)
@@ -8331,6 +8767,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 241.3) (xy 156.21 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92f0931-23b3-415a-bab2-39d819cbd8ff")
+	)
+	(wire
+		(pts
 			(xy 349.25 218.44) (xy 349.25 223.52)
 		)
 		(stroke
@@ -8341,7 +8787,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 212.09) (xy 102.87 220.98)
+			(xy 102.87 208.28) (xy 102.87 217.17)
 		)
 		(stroke
 			(width 0)
@@ -8711,7 +9157,7 @@
 		(uuid "00fd50dc-0b7c-4086-998d-79a641dec204")
 	)
 	(label "DEMUX-Thermistor2"
-		(at 106.68 147.32 0)
+		(at 106.68 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8732,7 +9178,7 @@
 		(uuid "071066cc-2f5e-4555-9130-450d25d56c1c")
 	)
 	(label "DEMUX-Thermistor11"
-		(at 106.68 227.33 0)
+		(at 106.68 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8775,7 +9221,7 @@
 		(uuid "152cb932-69bb-4d39-bacb-384ac59abfbb")
 	)
 	(label "DEMUX-Thermistor7"
-		(at 106.68 191.77 0)
+		(at 106.68 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8857,6 +9303,17 @@
 			(justify right bottom)
 		)
 		(uuid "2baa07bf-2974-4e0d-8a60-afac9f86fe5b")
+	)
+	(label "AGND"
+		(at 156.21 278.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bb7f810-1da5-4957-974e-eeaca5545fc4")
 	)
 	(label "DEMUX-Address1"
 		(at 25.4 196.85 0)
@@ -8976,7 +9433,7 @@
 		(uuid "404f37ad-837c-40c2-bd04-5cfb8e75980d")
 	)
 	(label "DEMUX-Thermistor3"
-		(at 106.68 156.21 0)
+		(at 106.68 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9243,7 +9700,7 @@
 		(uuid "6b2359c8-b26d-4367-8c32-2b41ae038cd7")
 	)
 	(label "DEMUX-Thermistor12"
-		(at 106.68 236.22 0)
+		(at 106.68 232.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9338,7 +9795,7 @@
 		(uuid "7df41df7-55fe-4b9b-b74c-5cea88a60600")
 	)
 	(label "DEMUX-Thermistor14"
-		(at 106.68 254 0)
+		(at 106.68 250.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9347,8 +9804,19 @@
 		)
 		(uuid "83bc5a77-1813-41a5-abee-cfe2b4cc922c")
 	)
+	(label "ADC0"
+		(at 139.7 265.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8506ec9f-5874-4612-b2cc-a6779ba0c66f")
+	)
 	(label "DEMUX-Thermistor10"
-		(at 106.68 218.44 0)
+		(at 106.68 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9456,7 +9924,7 @@
 		(uuid "a248614b-5149-477a-95c5-8277dd2d20aa")
 	)
 	(label "DEMUX-Thermistor13"
-		(at 106.68 245.11 0)
+		(at 106.68 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9530,7 +9998,7 @@
 		(uuid "aef4f048-f10b-4688-b8cb-1a10335e6363")
 	)
 	(label "DEMUX-Thermistor8"
-		(at 106.68 200.66 0)
+		(at 106.68 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9703,7 +10171,7 @@
 		(uuid "cc468f22-b2d9-4b24-8ffe-cfac39fcdbbc")
 	)
 	(label "DEMUX-Thermistor6"
-		(at 106.68 182.88 0)
+		(at 106.68 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9744,7 +10212,7 @@
 		(uuid "d3b08564-f96f-4fa3-9059-c0d07caa9885")
 	)
 	(label "DEMUX-Thermistor[0..15]"
-		(at 102.87 270.51 90)
+		(at 102.87 266.7 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9765,7 +10233,7 @@
 		(uuid "d576465b-169d-46d1-9773-12c71de7c80f")
 	)
 	(label "DEMUX-Thermistor15"
-		(at 106.68 262.89 0)
+		(at 106.68 259.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9871,7 +10339,7 @@
 		(uuid "e6ccf883-da71-4c27-9e72-999af34dcea3")
 	)
 	(label "DEMUX-Thermistor1"
-		(at 106.68 138.43 0)
+		(at 106.68 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9891,7 +10359,7 @@
 		(uuid "e95a30fc-a811-4526-9e9f-d51cd9f590d1")
 	)
 	(label "DEMUX-Thermistor9"
-		(at 106.68 209.55 0)
+		(at 106.68 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9901,7 +10369,7 @@
 		(uuid "ecfe58dd-ca03-4bcb-8601-9ee14a60b0ae")
 	)
 	(label "DEMUX-Thermistor0"
-		(at 106.68 129.54 0)
+		(at 106.68 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9933,7 +10401,7 @@
 		(uuid "f3a3b203-c5b6-4461-82ac-d16714d72e46")
 	)
 	(label "DEMUX-Thermistor5"
-		(at 106.68 173.99 0)
+		(at 106.68 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9953,7 +10421,7 @@
 		(uuid "f6be702a-6ebc-4eeb-ba78-6cbd10f643bf")
 	)
 	(label "DEMUX-Thermistor4"
-		(at 106.68 165.1 0)
+		(at 106.68 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10185,7 +10653,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 133.35 165.1 90)
+		(at 133.35 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10194,7 +10662,7 @@
 		(fields_autoplaced yes)
 		(uuid "04d3b159-37bc-4f46-822b-8aa932e7f1a3")
 		(property "Reference" "TH?"
-			(at 133.6675 158.75 90)
+			(at 133.6675 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10202,7 +10670,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 133.6675 161.29 90)
+			(at 133.6675 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10210,7 +10678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 165.1 0)
+			(at 132.08 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10219,7 +10687,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 165.1 0)
+			(at 132.08 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10228,7 +10696,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 133.35 165.1 0)
+			(at 133.35 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10456,7 +10924,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 133.35 254 90)
+		(at 133.35 250.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10465,7 +10933,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bf743f3-e920-4d1f-8e77-478f74ffe011")
 		(property "Reference" "TH?"
-			(at 133.6675 247.65 90)
+			(at 133.6675 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10473,7 +10941,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 133.6675 250.19 90)
+			(at 133.6675 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10481,7 +10949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 254 0)
+			(at 132.08 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10490,7 +10958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 254 0)
+			(at 132.08 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10499,7 +10967,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 133.35 254 0)
+			(at 133.35 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11328,7 +11796,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 144.78 262.89 90)
+		(at 144.78 259.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11337,7 +11805,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fffdf7d-d8f7-4844-9399-7eb770a8a35f")
 		(property "Reference" "TH?"
-			(at 145.0975 256.54 90)
+			(at 145.0975 252.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11345,7 +11813,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 145.0975 259.08 90)
+			(at 145.0975 255.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11353,7 +11821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 262.89 0)
+			(at 143.51 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11362,7 +11830,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 262.89 0)
+			(at 143.51 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11371,7 +11839,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 144.78 262.89 0)
+			(at 144.78 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12227,7 +12695,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 133.35 182.88 90)
+		(at 133.35 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12236,7 +12704,7 @@
 		(fields_autoplaced yes)
 		(uuid "46927511-860c-42b2-b5e4-00c4ab2f20dd")
 		(property "Reference" "TH?"
-			(at 133.6675 176.53 90)
+			(at 133.6675 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12244,7 +12712,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 133.6675 179.07 90)
+			(at 133.6675 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12252,7 +12720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 182.88 0)
+			(at 132.08 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12261,7 +12729,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 182.88 0)
+			(at 132.08 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12270,7 +12738,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 133.35 182.88 0)
+			(at 133.35 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12450,7 +12918,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 133.35 236.22 90)
+		(at 133.35 232.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12459,7 +12927,7 @@
 		(fields_autoplaced yes)
 		(uuid "548de210-abe0-494d-bebc-09750bfd908c")
 		(property "Reference" "TH?"
-			(at 133.6675 229.87 90)
+			(at 133.6675 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12467,7 +12935,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 133.6675 232.41 90)
+			(at 133.6675 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12475,7 +12943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 236.22 0)
+			(at 132.08 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12484,7 +12952,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 236.22 0)
+			(at 132.08 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12493,7 +12961,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 133.35 236.22 0)
+			(at 133.35 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,7 +13056,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 144.78 227.33 90)
+		(at 144.78 223.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12597,7 +13065,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e13d82b-d0e4-4cc3-8814-2578b597353c")
 		(property "Reference" "TH?"
-			(at 145.0975 220.98 90)
+			(at 145.0975 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12605,7 +13073,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 145.0975 223.52 90)
+			(at 145.0975 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12613,7 +13081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 227.33 0)
+			(at 143.51 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12622,7 +13090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 227.33 0)
+			(at 143.51 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12631,7 +13099,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 144.78 227.33 0)
+			(at 144.78 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12792,7 +13260,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 144.78 245.11 90)
+		(at 144.78 241.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12801,7 +13269,7 @@
 		(fields_autoplaced yes)
 		(uuid "68e7b407-ebee-4cf1-9ba8-b2ad0347e9e6")
 		(property "Reference" "TH?"
-			(at 145.0975 238.76 90)
+			(at 145.0975 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12809,7 +13277,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 145.0975 241.3 90)
+			(at 145.0975 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12817,7 +13285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 245.11 0)
+			(at 143.51 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12826,7 +13294,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 245.11 0)
+			(at 143.51 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12835,7 +13303,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 144.78 245.11 0)
+			(at 144.78 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13578,7 +14046,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 144.78 191.77 90)
+		(at 144.78 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13587,7 +14055,7 @@
 		(fields_autoplaced yes)
 		(uuid "7911191a-7e66-42c9-8a28-83ebca02b77d")
 		(property "Reference" "TH?"
-			(at 145.0975 185.42 90)
+			(at 145.0975 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13595,7 +14063,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 145.0975 187.96 90)
+			(at 145.0975 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13603,7 +14071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 191.77 0)
+			(at 143.51 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13612,7 +14080,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 191.77 0)
+			(at 143.51 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13621,7 +14089,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 144.78 191.77 0)
+			(at 144.78 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13853,7 +14321,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 133.35 200.66 90)
+		(at 133.35 196.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13862,7 +14330,7 @@
 		(fields_autoplaced yes)
 		(uuid "8338169c-970e-4b43-b745-5712d96dc87a")
 		(property "Reference" "TH?"
-			(at 133.6675 194.31 90)
+			(at 133.6675 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13870,7 +14338,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 133.6675 196.85 90)
+			(at 133.6675 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13878,7 +14346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 200.66 0)
+			(at 132.08 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13887,7 +14355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 200.66 0)
+			(at 132.08 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13896,7 +14364,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 133.35 200.66 0)
+			(at 133.35 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14868,7 +15336,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 144.78 209.55 90)
+		(at 144.78 205.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14876,7 +15344,7 @@
 		(dnp no)
 		(uuid "9f6c2742-1162-4b80-a809-a7ae09d8b267")
 		(property "Reference" "TH?"
-			(at 145.0975 203.2 90)
+			(at 145.0975 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14884,7 +15352,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 145.0975 205.74 90)
+			(at 145.0975 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14892,7 +15360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 209.55 0)
+			(at 143.51 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14901,7 +15369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 209.55 0)
+			(at 143.51 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14910,7 +15378,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 144.78 209.55 0)
+			(at 144.78 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15002,7 +15470,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 144.78 156.21 90)
+		(at 144.78 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15011,7 +15479,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8b62eba-32a3-4a26-8f4f-bb5a05c13d19")
 		(property "Reference" "TH?"
-			(at 145.0975 149.86 90)
+			(at 145.0975 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15019,7 +15487,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 145.0975 152.4 90)
+			(at 145.0975 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15027,7 +15495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 156.21 0)
+			(at 143.51 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15036,7 +15504,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 156.21 0)
+			(at 143.51 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15045,7 +15513,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 144.78 156.21 0)
+			(at 144.78 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15425,7 +15893,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 144.78 138.43 90)
+		(at 144.78 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15433,7 +15901,7 @@
 		(dnp no)
 		(uuid "b6475b12-ce92-43e8-9c92-56b345f59c1b")
 		(property "Reference" "TH?"
-			(at 145.0975 132.08 90)
+			(at 145.0975 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15441,7 +15909,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 145.0975 134.62 90)
+			(at 145.0975 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15449,7 +15917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 138.43 0)
+			(at 143.51 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15458,7 +15926,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 138.43 0)
+			(at 143.51 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15467,7 +15935,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 144.78 138.43 0)
+			(at 144.78 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15580,7 +16048,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 133.35 129.54 90)
+		(at 133.35 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15589,7 +16057,7 @@
 		(fields_autoplaced yes)
 		(uuid "c34b2b79-f72d-488e-9da9-dd2de59d0332")
 		(property "Reference" "TH?"
-			(at 133.6675 123.19 90)
+			(at 133.6675 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15597,7 +16065,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 133.6675 125.73 90)
+			(at 133.6675 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15605,7 +16073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 129.54 0)
+			(at 132.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15614,7 +16082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 129.54 0)
+			(at 132.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15623,7 +16091,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 133.35 129.54 0)
+			(at 133.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16102,7 +16570,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 133.35 147.32 90)
+		(at 133.35 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16111,7 +16579,7 @@
 		(fields_autoplaced yes)
 		(uuid "de5c1acf-32a2-4f4b-be54-e16c9c87014b")
 		(property "Reference" "TH?"
-			(at 133.6675 140.97 90)
+			(at 133.6675 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16119,7 +16587,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 133.6675 143.51 90)
+			(at 133.6675 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16127,7 +16595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 147.32 0)
+			(at 132.08 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16136,7 +16604,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 147.32 0)
+			(at 132.08 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16145,7 +16613,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 133.35 147.32 0)
+			(at 133.35 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16163,6 +16631,73 @@
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "TH?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 270.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0132e05-eead-4ddc-ac43-0ad56628cfaf")
+		(property "Reference" "R?"
+			(at 158.496 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kR"
+			(at 152.4 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.988 270.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a256fa44-0f16-4d44-bcda-9843dd64676a")
+		)
+		(pin "2"
+			(uuid "875d0034-a14b-4a58-81f0-37c28392228e")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -16795,7 +17330,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 133.35 218.44 90)
+		(at 133.35 214.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16804,7 +17339,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3632b58-a285-4c32-8152-f6a555e4ddc1")
 		(property "Reference" "TH?"
-			(at 133.6675 212.09 90)
+			(at 133.6675 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16812,7 +17347,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 133.6675 214.63 90)
+			(at 133.6675 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16820,7 +17355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 218.44 0)
+			(at 132.08 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16829,7 +17364,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 218.44 0)
+			(at 132.08 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16838,7 +17373,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 133.35 218.44 0)
+			(at 133.35 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16963,7 +17498,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 144.78 173.99 90)
+		(at 144.78 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16972,7 +17507,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9d086ac-eac0-4843-acf7-79a9b2a7fe6b")
 		(property "Reference" "TH?"
-			(at 145.0975 167.64 90)
+			(at 145.0975 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16980,7 +17515,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 145.0975 170.18 90)
+			(at 145.0975 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16988,7 +17523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 173.99 0)
+			(at 143.51 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16997,7 +17532,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 173.99 0)
+			(at 143.51 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17006,7 +17541,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 144.78 173.99 0)
+			(at 144.78 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
