@@ -50,6 +50,7 @@ add_executable(${PROGRAM_NAME}
     main.c
     ssi.c
     cgi.c
+    functions.c
 )
 
 target_include_directories(${PROGRAM_NAME} PRIVATE
