@@ -49,19 +49,19 @@ int main(){
 
             switch (mode){
 
-            case 0: //Brightness 0%
+            case 0: //Speed 0%
                 pwm_set_chan_level(slice_number, PWM_CHAN_A, 0);
                 break;
 
-            case 1: //Brightness 25%
+            case 1: //Speed 25%
                 pwm_set_chan_level(slice_number, PWM_CHAN_A, pwm_wrap_point*0.25f);
                 break;
 
-            case 2: //Brightness 50%
+            case 2: //Speed 50%
                 pwm_set_chan_level(slice_number, PWM_CHAN_A, pwm_wrap_point*0.5f);
                 break;
 
-            case 3: //Brightness 100%
+            case 3: //Speed 100%
                 pwm_set_chan_level(slice_number, PWM_CHAN_A, pwm_wrap_point);
                 break;
 
