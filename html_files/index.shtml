@@ -7,8 +7,18 @@
     </head>
 
     <body>
-        <h1>Current temperature:</h1> <br>
+        <h1>Current voltage:</h1> <br>
+        <p><!--#volt--> V</p> <br>
+
+        <h1>Current temperature (S-H):</h1> <br>
         <p><!--#temp--> C</p> <br>
+
+
+        <h1>Resistance:</h1> <br>
+        <p><!--#res--> Ohm</p> <br>
+
+        <h1>ADC</h1> <br>
+        <p><!--#adc--> </p> <br>
 
         <a href="/led.cgi?led=1"><button>LED ON</button></a>
         <a href="/led.cgi?led=0"><button>LED OFF</button></a>
