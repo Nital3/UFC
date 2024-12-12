@@ -2,125 +2,123 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "CD74HC4514M96"
-		(pin_names
-			(offset 0.762)
-		)
+	(symbol "CD74HCT4067M"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 11.684 5.08 0)
+			(at 41.91 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
-		(property "Value" "CD74HC4514M96"
-			(at -27.432 -35.814 0)
+		(property "Value" "CD74HCT4067M"
+			(at 41.91 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "SOIC127P1030X265-24N"
-			(at -27.432 -38.354 0)
+			(at 41.91 -94.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/cd74hc4514"
-			(at -27.432 -40.894 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/cd74hct4067"
+			(at 41.91 -194.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "High Speed CMOS Logic 4-to-16 Line Decoder/Demultiplexer with Input Latches"
-			(at 12.446 -33.02 0)
+		(property "Description" "High-speed CMOS 16-channel analog multiplexer & demultiplexer with TTL inputs"
+			(at 23.368 -33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "High Speed CMOS Logic 4-to-16 Line Decoder/Demultiplexer with Input Latches"
-			(at -27.432 -43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Height" "2.65"
-			(at -6.096 -35.814 0)
+			(at 41.91 -394.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-CD74HC4514M96"
-			(at -27.432 -48.514 0)
+		(property "Mouser Part Number" "595-CD74HCT4067M"
+			(at 41.91 -494.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC4514M96?qs=xFfolx0DHx3s6ILXGQ%2FrLQ%3D%3D"
-			(at -27.432 -51.054 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HCT4067M?qs=vul0MlC%2Fa1fex%2F7NLRWpgQ%3D%3D"
+			(at 41.91 -594.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at -27.432 -53.594 0)
+			(at 41.91 -694.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CD74HC4514M96"
-			(at -27.432 -56.134 0)
+		(property "Manufacturer_Part_Number" "CD74HCT4067M"
+			(at 41.91 -794.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(symbol "CD74HC4514M96_0_0"
+		(symbol "CD74HCT4067M_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 40.64 -30.48)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at 0 0 0)
 				(length 5.08)
-				(name "~{LE}"
+				(name "COMMON_INPUT/OUTPUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -138,7 +136,7 @@
 			(pin passive line
 				(at 0 -22.86 0)
 				(length 5.08)
-				(name "Y2"
+				(name "S0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -156,7 +154,7 @@
 			(pin passive line
 				(at 0 -25.4 0)
 				(length 5.08)
-				(name "Y0"
+				(name "S1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -190,9 +188,9 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -27.94 180)
+				(at 45.72 -27.94 180)
 				(length 5.08)
-				(name "Y13"
+				(name "S3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -208,9 +206,9 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -25.4 180)
+				(at 45.72 -25.4 180)
 				(length 5.08)
-				(name "Y12"
+				(name "S2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -226,9 +224,9 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -22.86 180)
+				(at 45.72 -22.86 180)
 				(length 5.08)
-				(name "Y15"
+				(name "~{E}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -244,9 +242,9 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -20.32 180)
+				(at 45.72 -20.32 180)
 				(length 5.08)
-				(name "Y14"
+				(name "I15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -262,9 +260,9 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -17.78 180)
+				(at 45.72 -17.78 180)
 				(length 5.08)
-				(name "Y9"
+				(name "I14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -280,9 +278,9 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -15.24 180)
+				(at 45.72 -15.24 180)
 				(length 5.08)
-				(name "Y8"
+				(name "I13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -298,9 +296,9 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -12.7 180)
+				(at 45.72 -12.7 180)
 				(length 5.08)
-				(name "Y11"
+				(name "I12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -318,7 +316,7 @@
 			(pin passive line
 				(at 0 -2.54 0)
 				(length 5.08)
-				(name "A0"
+				(name "I7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -334,9 +332,9 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -10.16 180)
+				(at 45.72 -10.16 180)
 				(length 5.08)
-				(name "Y10"
+				(name "I11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -352,9 +350,9 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -7.62 180)
+				(at 45.72 -7.62 180)
 				(length 5.08)
-				(name "A2"
+				(name "I10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -370,9 +368,9 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -5.08 180)
+				(at 45.72 -5.08 180)
 				(length 5.08)
-				(name "A3"
+				(name "I9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -388,9 +386,9 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -2.54 180)
+				(at 45.72 -2.54 180)
 				(length 5.08)
-				(name "~{E}"
+				(name "I8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -406,7 +404,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 0 180)
+				(at 45.72 0 180)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -426,7 +424,7 @@
 			(pin passive line
 				(at 0 -5.08 0)
 				(length 5.08)
-				(name "A1"
+				(name "I6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -444,7 +442,7 @@
 			(pin passive line
 				(at 0 -7.62 0)
 				(length 5.08)
-				(name "Y7"
+				(name "I5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -462,7 +460,7 @@
 			(pin passive line
 				(at 0 -10.16 0)
 				(length 5.08)
-				(name "Y6"
+				(name "I4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -480,7 +478,7 @@
 			(pin passive line
 				(at 0 -12.7 0)
 				(length 5.08)
-				(name "Y5"
+				(name "I3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -498,7 +496,7 @@
 			(pin passive line
 				(at 0 -15.24 0)
 				(length 5.08)
-				(name "Y4"
+				(name "I2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -516,7 +514,7 @@
 			(pin passive line
 				(at 0 -17.78 0)
 				(length 5.08)
-				(name "Y3"
+				(name "I1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -534,7 +532,7 @@
 			(pin passive line
 				(at 0 -20.32 0)
 				(length 5.08)
-				(name "Y1"
+				(name "I0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -550,17 +548,208 @@
 				)
 			)
 		)
-		(symbol "CD74HC4514M96_0_1"
-			(polyline
-				(pts
-					(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -30.48) (xy 5.08 -30.48) (xy 5.08 2.54)
+	)
+	(symbol "EP1-3N1S"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "K"
+			(at 9.144 7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify left top)
+			)
+		)
+		(property "Value" "EP1-3N1S"
+			(at 9.144 4.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "EP13N1S"
+			(at 24.13 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/EP1-3N1S.pdf"
+			(at 24.13 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Automotive Relays SINGLE 1 FORM C"
+			(at 13.716 -9.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "16.5"
+			(at 24.13 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "551-EP1-3N1S"
+			(at 24.13 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/EP1-3N1S?qs=rjnFDYRVT0ocOMY%2FUkbd7Q%3D%3D"
+			(at 24.13 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 24.13 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EP1-3N1S"
+			(at 24.13 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "EP1-3N1S_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 22.86 -7.62)
 				(stroke
-					(width 0.1524)
-					(type solid)
+					(width 0.254)
+					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "COM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "COIL_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "COIL_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 0 180)
+				(length 5.08)
+				(name "NO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -2.54 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)

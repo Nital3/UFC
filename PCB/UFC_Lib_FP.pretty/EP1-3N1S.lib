@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model EP1-3N1S
+#/260135/1542227/2.50/5/3/Relay or Contactor
+DEF EP1-3N1S K 0 30 Y Y 1 F N
+F0 "K" 950 300 50 H V L CNN
+F1 "EP1-3N1S" 950 200 50 H V L CNN
+F2 "EP13N1S" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/EP1-3N1S.pdf" 950 0 50 H I L CNN
+F4 "Automotive Relays SINGLE 1 FORM C" 950 -100 50 H I L CNN "Description"
+F5 "16.5" 950 -200 50 H I L CNN "Height"
+F6 "551-EP1-3N1S" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/KEMET/EP1-3N1S?qs=rjnFDYRVT0ocOMY%2FUkbd7Q%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "KEMET" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "EP1-3N1S" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X COM 1 0 0 200 R 50 50 0 0 P
+X COIL_1 2 0 -100 200 R 50 50 0 0 P
+X COIL_2 3 0 -200 200 R 50 50 0 0 P
+X NO 4 1100 0 200 L 50 50 0 0 P
+X NC 5 1100 -100 200 L 50 50 0 0 N
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
