@@ -17371,7 +17371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH"
+		(property "Footprint" "UFC_Lib_FP:RPi_Pico_SMD_TH"
 			(at 229.87 466.09 90)
 			(effects
 				(font
