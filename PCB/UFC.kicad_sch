@@ -3951,6 +3951,12 @@
 		(uuid "2ba3634a-602e-427f-8d78-00b9b8de8484")
 	)
 	(junction
+		(at 350.52 429.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d9c2664-86ba-4684-af3c-0ed26c2f4ab0")
+	)
+	(junction
 		(at 260.35 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4237,12 +4243,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dce9b678-76e2-4a28-9ce7-760026a32505")
-	)
-	(junction
-		(at 350.52 429.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df6ec647-c118-4a8c-8c86-a99852bcb1d3")
 	)
 	(junction
 		(at 339.09 367.03)
@@ -7562,6 +7562,16 @@
 		)
 		(uuid "58e5532e-1e20-45a8-bbb5-7db0a9533f2a")
 	)
+	(wire
+		(pts
+			(xy 350.52 429.26) (xy 356.87 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c272e2-01b1-4cb4-b8ad-8b1a45443851")
+	)
 	(bus
 		(pts
 			(xy 317.5 205.74) (xy 317.5 214.63)
@@ -7671,6 +7681,16 @@
 			(type default)
 		)
 		(uuid "60119f9b-ef1f-4367-b668-af85e6b596c4")
+	)
+	(wire
+		(pts
+			(xy 309.88 309.88) (xy 309.88 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603675a6-758c-4d43-832f-4939e7fe126c")
 	)
 	(bus
 		(pts
@@ -8061,16 +8081,6 @@
 			(type default)
 		)
 		(uuid "6f87e331-b4e5-4141-bfe1-7cc60cd818fd")
-	)
-	(wire
-		(pts
-			(xy 350.52 429.26) (xy 356.87 429.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ff57549-8082-4960-80d9-d7a5919a138e")
 	)
 	(wire
 		(pts
@@ -8484,13 +8494,13 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 312.42) (xy 309.88 309.88)
+			(xy 203.2 273.05) (xy 203.2 292.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84389644-bb47-45c4-a325-2d4b43487bd7")
+		(uuid "84f602fb-9af1-407a-bae3-eec34b67dbdc")
 	)
 	(wire
 		(pts
@@ -8811,16 +8821,6 @@
 			(type default)
 		)
 		(uuid "916d6ee9-8ea0-4ae6-884f-84b71da5d4bf")
-	)
-	(wire
-		(pts
-			(xy 203.2 273.05) (xy 203.2 292.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91d5cebc-5c42-478c-a159-5641a567eeb4")
 	)
 	(wire
 		(pts
@@ -11092,6 +11092,16 @@
 		)
 		(uuid "0a5be60c-1b08-4010-867c-2af040ab67f2")
 	)
+	(label "FAN_TACHO7"
+		(at 146.05 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b26b8ba-2c4d-476f-9143-d45cbdf61b54")
+	)
 	(label "DEMUX-Thermistor27"
 		(at 326.39 185.42 0)
 		(effects
@@ -11282,6 +11292,26 @@
 		)
 		(uuid "221a75d5-c127-44a7-8acc-ab6517211957")
 	)
+	(label "FAN_TACHO4"
+		(at 92.71 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "228c043e-3e06-4108-8191-357bec8dd6fe")
+	)
+	(label "FAN_TACHO1"
+		(at 40.64 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24de18b5-5d2b-4159-ba37-c7fef3735f6c")
+	)
 	(label "FAN_TACHO3"
 		(at 248.92 287.02 90)
 		(effects
@@ -11381,6 +11411,16 @@
 			(justify left bottom)
 		)
 		(uuid "3089b243-1c12-4c89-a160-8901b7568f4c")
+	)
+	(label "Tacho3"
+		(at 77.47 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30a00cde-fbad-4971-8ced-30924189c5ac")
 	)
 	(label "Working_indicator"
 		(at 318.77 448.31 180)
@@ -11482,6 +11522,16 @@
 		)
 		(uuid "413c9af6-825c-4b6a-93c0-2795b5f52aee")
 	)
+	(label "Tacho4"
+		(at 93.98 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "454a48c3-8c49-4c67-a71f-e5dd2b6ae556")
+	)
 	(label "FAN_TACHO[0..7]"
 		(at 374.65 270.51 0)
 		(effects
@@ -11561,6 +11611,16 @@
 			(justify right bottom)
 		)
 		(uuid "50d02475-7458-45cf-9b0e-d8e00668d307")
+	)
+	(label "Tacho1"
+		(at 41.91 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52d9aca8-3c40-4d90-954a-aa533b4f1c12")
 	)
 	(label "Tacho1"
 		(at 191.77 469.9 0)
@@ -11652,7 +11712,17 @@
 		)
 		(uuid "5a9def06-f457-4aa6-b744-93f82a76b483")
 	)
-	(label "ADC1"
+	(label "Tacho2"
+		(at 59.69 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f5ec33a-e914-4519-b2aa-f5ebbfb6be25")
+	)
+	(label "ADC0"
 		(at 252.73 462.28 0)
 		(effects
 			(font
@@ -11702,6 +11772,16 @@
 		)
 		(uuid "652d9b13-1fa7-4431-bb74-2ad6110127db")
 	)
+	(label "FAN_TACHO3"
+		(at 76.2 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6561424d-1492-4f84-b0e5-cd8bcf8b7834")
+	)
 	(label "DEMUX-Thermistor10"
 		(at 119.38 346.71 0)
 		(effects
@@ -11742,6 +11822,16 @@
 		)
 		(uuid "6a9024ba-1169-4f47-b8b3-e026d3e8ddb6")
 	)
+	(label "Tacho5"
+		(at 111.76 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bf602ca-eb95-4159-80fb-97481b72cef4")
+	)
 	(label "DEMUX-Thermistor20"
 		(at 40.64 464.82 0)
 		(effects
@@ -11781,6 +11871,16 @@
 			(justify left bottom)
 		)
 		(uuid "6de73267-8c08-4ad8-b1df-29df31319e61")
+	)
+	(label "FAN_TACHO5"
+		(at 110.49 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dfe58c4-8dca-41eb-9d80-0731a4a1907a")
 	)
 	(label "PWM_NMOS[0..7]"
 		(at 187.96 436.88 90)
@@ -11852,6 +11952,16 @@
 		)
 		(uuid "775ba3ec-ea9e-4480-a38d-a01335e6031b")
 	)
+	(label "Tacho0"
+		(at 24.13 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78087c36-46ae-4c27-9a54-a27e0b4a9099")
+	)
 	(label "DEMUX-Thermistor4"
 		(at 40.64 349.25 0)
 		(effects
@@ -11861,6 +11971,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ec5939a-8903-4597-a05e-10a1ee4bef76")
+	)
+	(label "FAN_TACHO2"
+		(at 58.42 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fc3dde8-3986-4fd3-a4bc-8f52482d55c1")
 	)
 	(label "DEMUX-Thermistor0"
 		(at 40.64 359.41 0)
@@ -12122,6 +12242,16 @@
 		)
 		(uuid "ad0cf860-0afa-4408-aa31-bc2fa3210012")
 	)
+	(label "Tacho7"
+		(at 147.32 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad509865-816e-40aa-89f3-dab319db0e9c")
+	)
 	(label "DEMUX-Thermistor1"
 		(at 40.64 356.87 0)
 		(effects
@@ -12161,6 +12291,16 @@
 			(justify left bottom)
 		)
 		(uuid "b1e94a0b-15f1-4e31-af9f-9ea3cfed06ca")
+	)
+	(label "FAN_TACHO0"
+		(at 22.86 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1fd4e06-f8f4-4797-b723-b2e4e617acdf")
 	)
 	(label "Relay_closed"
 		(at 264.16 312.42 0)
@@ -12251,6 +12391,16 @@
 			(justify left bottom)
 		)
 		(uuid "c26bbd00-9517-4f65-ac5f-dbbb0e9722fd")
+	)
+	(label "Tacho6"
+		(at 129.54 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c39a6b8b-4c7c-4f9a-acb6-932caf541a6c")
 	)
 	(label "NMOS-FAN7"
 		(at 350.52 300.99 270)
@@ -12382,7 +12532,7 @@
 		)
 		(uuid "d69f4116-9812-4a55-ad6f-4af5fa177f9c")
 	)
-	(label "ADC0"
+	(label "ADC1"
 		(at 252.73 464.82 0)
 		(effects
 			(font
@@ -12542,7 +12692,7 @@
 		)
 		(uuid "e5d630b6-9440-421a-aab8-5906a468541d")
 	)
-	(label "Tacho4"
+	(label "Tacho5"
 		(at 191.77 482.6 0)
 		(effects
 			(font
@@ -12732,6 +12882,16 @@
 		)
 		(uuid "fa457b7a-0e43-40d7-80f4-3d17634c3150")
 	)
+	(label "FAN_TACHO6"
+		(at 128.27 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fadf505c-f5a4-4d47-a4a8-16ea89e429ee")
+	)
 	(label "DEMUX-Thermistor1"
 		(at 203.2 96.52 0)
 		(effects
@@ -12781,6 +12941,94 @@
 			(justify left bottom)
 		)
 		(uuid "ff2fb68c-bc60-427c-9312-e9a73e97e56e")
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 355.6 306.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "035fd24a-792b-40e3-ac8b-305458065bad")
+		(property "Reference" "D7"
+			(at 358.14 304.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 358.14 307.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
+			(at 355.6 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/s3a.pdf"
+			(at 355.6 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "S3M diotec"
+			(at 355.6 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 355.6 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 355.6 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f31e53f-7ab8-446a-9d9d-e4cf80a62b6b")
+		)
+		(pin "1"
+			(uuid "ddd72bcf-f8af-4252-9d75-1434727031b6")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
@@ -12860,7 +13108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "054afcc0-b343-43fc-96ac-7a029a783fbf")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 233.934 355.6 0)
 			(effects
 				(font
@@ -12944,7 +13192,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -13222,6 +13470,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 218.44 306.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b264a5f-8b9a-45bb-b1d3-e8bd7ec3794f")
+		(property "Reference" "D1"
+			(at 220.98 304.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 220.98 307.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
+			(at 218.44 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/s3a.pdf"
+			(at 218.44 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "S3M diotec"
+			(at 218.44 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 218.44 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 218.44 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15754ace-08d3-432a-a81c-cc421b0bc808")
+		)
+		(pin "1"
+			(uuid "0b654306-1f06-4eab-8ae4-655b0dab6272")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermistor_NTC")
 		(at 353.06 212.09 90)
 		(unit 1)
@@ -13435,7 +13771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15dcf797-f64d-488a-b50a-fe15010eb5d2")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 331.47 446.024 90)
 			(effects
 				(font
@@ -13487,7 +13823,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -13616,6 +13952,94 @@
 			(project ""
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "K0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 350.52 433.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b39a8b9-8c6e-48d7-83ea-4d286ed5a927")
+		(property "Reference" "D8"
+			(at 353.06 431.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 353.06 434.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
+			(at 350.52 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/s3a.pdf"
+			(at 350.52 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "S3M diotec"
+			(at 350.52 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 350.52 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 350.52 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a51cffd9-3972-49af-a286-8f4403162e22")
+		)
+		(pin "1"
+			(uuid "10399b44-8047-4a90-8281-abeb40da942c")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -13904,7 +14328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e0a7e5a-f7d7-4cb5-bbea-54f84f61e599")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 264.16 369.316 90)
 			(effects
 				(font
@@ -13956,7 +14380,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -14179,7 +14603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24dbf96e-7c91-4dbd-b2ea-6c0a02af188f")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 332.74 369.316 90)
 			(effects
 				(font
@@ -14231,7 +14655,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -14909,7 +15333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37371039-ddde-476f-9d41-965e1effc654")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 355.6 369.316 90)
 			(effects
 				(font
@@ -14961,7 +15385,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -15177,7 +15601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "390e3fb9-b7f1-4b30-8dcb-de7972a32ecc")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 287.02 369.316 90)
 			(effects
 				(font
@@ -15229,7 +15653,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -15575,94 +15999,6 @@
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "TH30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 332.74 306.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "411092a4-2dac-4c33-a1b1-52a7619135d6")
-		(property "Reference" "D6"
-			(at 335.28 304.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 335.28 307.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 332.74 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88708/rs2a.pdf"
-			(at 332.74 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS2KHE3_A/I"
-			(at 332.74 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 332.74 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 332.74 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "42c2efe3-ce1a-4049-87f3-3a9c79507fc8")
-		)
-		(pin "1"
-			(uuid "8334a6e4-82cc-43c8-8fea-4e5889b77bfd")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -16151,6 +16487,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 264.16 306.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ac1c3e8-6ed9-4f72-9401-fc32205301b9")
+		(property "Reference" "D3"
+			(at 266.7 304.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 266.7 307.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
+			(at 264.16 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/s3a.pdf"
+			(at 264.16 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "S3M diotec"
+			(at 264.16 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 264.16 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 264.16 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e48edf1-45fd-4aa0-8a2f-d23cfd4b2de7")
+		)
+		(pin "1"
+			(uuid "3a000d49-5fe8-4d2f-8e8a-0e8a0cd73082")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 67.31 245.11 0)
 		(unit 1)
@@ -16350,94 +16774,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 218.44 306.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51010c11-e8d4-4c35-b1ff-597ebf1b76e2")
-		(property "Reference" "D1"
-			(at 220.98 304.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 220.98 307.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 218.44 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88708/rs2a.pdf"
-			(at 218.44 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS2KHE3_A/I"
-			(at 218.44 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 218.44 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 218.44 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4d0ace28-c46d-4186-b2fc-822432f47c41")
-		)
-		(pin "1"
-			(uuid "3db3386a-c74e-48c9-a892-6d24c3667113")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 49.53 245.11 0)
 		(unit 1)
@@ -16512,7 +16848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "531758fd-9283-4521-b19c-fd934c277630")
-		(property "Reference" "Q0"
+		(property "Reference" "Q1"
 			(at 211.074 355.6 0)
 			(effects
 				(font
@@ -16596,7 +16932,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "Q0")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -16738,6 +17074,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 287.02 306.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "561a6ea9-3b4a-4c73-a502-772e25b43460")
+		(property "Reference" "D4"
+			(at 289.56 304.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 289.56 307.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
+			(at 287.02 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/s3a.pdf"
+			(at 287.02 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "S3M diotec"
+			(at 287.02 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 287.02 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 287.02 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bff0fdd-cb10-4f80-a5f9-d8448c544fa6")
+		)
+		(pin "1"
+			(uuid "c60331cf-9582-4ed4-80bf-c3e268e9a4ae")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermistor_NTC")
 		(at 229.87 176.53 90)
 		(unit 1)
@@ -16814,7 +17238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "584c212d-52e8-400c-b8da-abee5bd34c11")
-		(property "Reference" "R29"
+		(property "Reference" "R28"
 			(at 325.374 455.93 0)
 			(effects
 				(font
@@ -16868,7 +17292,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R29")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -17546,7 +17970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73395cf0-f298-47d6-b6fc-92199713e4fd")
-		(property "Reference" "Q9"
+		(property "Reference" "Q0"
 			(at 188.214 355.6 0)
 			(effects
 				(font
@@ -17630,7 +18054,7 @@
 		(instances
 			(project ""
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "Q9")
+					(reference "Q0")
 					(unit 1)
 				)
 			)
@@ -17778,94 +18202,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 350.52 433.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ac3ce12-f5c0-43f6-b89c-c8cd200ef6cd")
-		(property "Reference" "D8"
-			(at 353.06 431.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 353.06 434.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 350.52 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88708/rs2a.pdf"
-			(at 350.52 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS2KHE3_A/I"
-			(at 350.52 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 350.52 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 350.52 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "11b7da4a-53f2-45e2-9310-c016e5131be0")
-		)
-		(pin "1"
-			(uuid "ff67c0d1-24a0-468d-bebb-0a5b7cb1b65c")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 128.27 229.87 0)
 		(unit 1)
@@ -17892,7 +18228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 126.492 229.87 90)
 			(effects
 				(font
@@ -17935,6 +18271,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 332.74 306.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c774e26-492f-4038-b385-eb9720e7f9cc")
+		(property "Reference" "D6"
+			(at 335.28 304.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 335.28 307.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
+			(at 332.74 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/s3a.pdf"
+			(at 332.74 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "S3M diotec"
+			(at 332.74 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 332.74 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 332.74 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a432792-e15e-4634-ac35-1a2b5c4e2b76")
+		)
+		(pin "1"
+			(uuid "04626a00-2e46-41db-a453-98e3ae054fa3")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 342.9 448.31 0)
 		(unit 1)
@@ -17943,7 +18367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f425884-e0a0-4db9-8e5e-403eb3fed842")
-		(property "Reference" "Q7"
+		(property "Reference" "Q8"
 			(at 347.726 447.04 0)
 			(effects
 				(font
@@ -18027,7 +18451,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "Q7")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -18095,94 +18519,6 @@
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 355.6 306.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82468965-e45a-466c-abc0-512ec767529a")
-		(property "Reference" "D7"
-			(at 358.14 304.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 358.14 307.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 355.6 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88708/rs2a.pdf"
-			(at 355.6 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS2KHE3_A/I"
-			(at 355.6 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 355.6 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 355.6 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ef6b7fed-f13c-498e-b414-e06a6b249420")
-		)
-		(pin "1"
-			(uuid "a1ef9a88-0ef2-4770-bab2-364ca61165d1")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -18266,7 +18602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83838110-d1c3-4d5d-b3f8-176a656f8744")
-		(property "Reference" "Q4"
+		(property "Reference" "Q5"
 			(at 302.514 355.6 0)
 			(effects
 				(font
@@ -18350,7 +18686,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "Q4")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -19099,7 +19435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93fcfac7-4d43-4445-a5e7-8bc1d3783c94")
-		(property "Reference" "R8"
+		(property "Reference" "R20"
 			(at 218.44 369.316 90)
 			(effects
 				(font
@@ -19151,7 +19487,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R8")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -19240,7 +19576,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "981ab3c3-23c5-45b8-8bca-d2e02cb72e54")
-		(property "Reference" "Q3"
+		(property "Reference" "Q4"
 			(at 279.654 355.6 0)
 			(effects
 				(font
@@ -19324,7 +19660,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "Q3")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -19731,94 +20067,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 241.3 306.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7e52f1d-6183-4394-8f29-47801ba1e9e5")
-		(property "Reference" "D2"
-			(at 243.84 304.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 243.84 307.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 241.3 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88708/rs2a.pdf"
-			(at 241.3 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS2KHE3_A/I"
-			(at 241.3 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 241.3 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 241.3 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5430bec1-1829-4cb4-b36e-def9400dc728")
-		)
-		(pin "1"
-			(uuid "bef5bf0c-e9b0-41b5-b64b-4e75344c26e7")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Thermistor_NTC")
 		(at 364.49 114.3 90)
 		(unit 1)
@@ -19896,7 +20144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a93bddde-068a-4b59-9608-5f42b8159d8e")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 256.794 355.6 0)
 			(effects
 				(font
@@ -19980,7 +20228,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -19995,7 +20243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab3d6dad-c9dd-41cd-878b-ccfc5b9fd7bf")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 241.3 369.316 90)
 			(effects
 				(font
@@ -20047,7 +20295,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -20116,6 +20364,94 @@
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "TH12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 309.88 306.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae113aa5-e87e-495d-82a5-6c87e79627f0")
+		(property "Reference" "D5"
+			(at 312.42 304.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 312.42 307.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
+			(at 309.88 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/s3a.pdf"
+			(at 309.88 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "S3M diotec"
+			(at 309.88 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 309.88 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 309.88 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f473e3d3-cd4f-4792-80a3-aa61f02b1400")
+		)
+		(pin "1"
+			(uuid "c16961b0-0871-45bf-aaa1-ed3cf2b9093a")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -20464,7 +20800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2247a60-ade0-43ea-94af-239c9b0e3ccf")
-		(property "Reference" "Q5"
+		(property "Reference" "Q6"
 			(at 325.374 355.6 0)
 			(effects
 				(font
@@ -20548,95 +20884,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 287.02 306.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2f22aa2-4de4-4396-bfc0-4aa7668fbb7b")
-		(property "Reference" "D4"
-			(at 289.56 304.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 289.56 307.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 287.02 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88708/rs2a.pdf"
-			(at 287.02 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS2KHE3_A/I"
-			(at 287.02 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 287.02 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 287.02 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0c5428f8-176a-4b4a-9eb0-48603e34d34b")
-		)
-		(pin "1"
-			(uuid "5b90a3ba-796d-41e6-8e82-c6952ea68b80")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "D4")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -20922,7 +21170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4510c88-a375-4957-8456-102873dc078b")
-		(property "Reference" "Q6"
+		(property "Reference" "Q7"
 			(at 348.234 355.6 0)
 			(effects
 				(font
@@ -21006,7 +21254,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "Q6")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -21227,7 +21475,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dae578a4-1f97-4e7d-b098-5c6fc3f63606")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 309.88 369.316 90)
 			(effects
 				(font
@@ -21279,95 +21527,7 @@
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 264.16 306.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbca9b8b-fd7c-4302-b7f8-36ea1bb8c637")
-		(property "Reference" "D3"
-			(at 266.7 304.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 266.7 307.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 264.16 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88708/rs2a.pdf"
-			(at 264.16 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS2KHE3_A/I"
-			(at 264.16 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 264.16 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 264.16 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "67b12e16-3d2b-4ed3-8c6b-cbd1c4045b6b")
-		)
-		(pin "1"
-			(uuid "5c05394e-84e2-4f3c-9713-657dcc913dcb")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "D3")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -21640,94 +21800,6 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 309.88 306.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e008d031-8f77-4df2-9e6c-7ad72b2e1b91")
-		(property "Reference" "D5"
-			(at 312.42 304.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 312.42 307.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 309.88 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88708/rs2a.pdf"
-			(at 309.88 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS2KHE3_A/I"
-			(at 309.88 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 309.88 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 309.88 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b2c74878-fc3b-4eeb-9b44-20b42249987a")
-		)
-		(pin "1"
-			(uuid "4af5ecb9-fb3e-466a-8e95-1cca4958690c")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
 		(at 195.58 306.07 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21754,7 +21826,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
 			(at 195.58 306.07 0)
 			(effects
 				(font
@@ -21763,7 +21835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88708/rs2a.pdf"
+		(property "Datasheet" "https://diotec.com/request/datasheet/s3a.pdf"
 			(at 195.58 306.07 0)
 			(effects
 				(font
@@ -21772,7 +21844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RS2KHE3_A/I"
+		(property "Description" "S3M diotec"
 			(at 195.58 306.07 0)
 			(effects
 				(font
@@ -22144,6 +22216,94 @@
 			(project ""
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 241.3 306.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0e82851-e119-402e-a420-ca9f72fe2304")
+		(property "Reference" "D2"
+			(at 243.84 304.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 243.84 307.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
+			(at 241.3 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/s3a.pdf"
+			(at 241.3 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "S3M diotec"
+			(at 241.3 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 241.3 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 241.3 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43e88a1b-1173-447f-9d40-aedbfb6a1bb6")
+		)
+		(pin "1"
+			(uuid "aa69f57f-6d39-4ceb-8096-4892c688dedb")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "D2")
 					(unit 1)
 				)
 			)
