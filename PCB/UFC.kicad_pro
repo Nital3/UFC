@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.02,
+          "height": 1.73,
+          "width": 2.03
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -124,7 +124,7 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.15,
-        "min_connection": 0.25,
+        "min_connection": 0.16,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -188,8 +188,12 @@
       ],
       "track_widths": [
         0.0,
+        0.0,
         0.2,
+        1.0,
+        2.5,
         3.0,
+        5.0,
         8.5
       ],
       "tuning_pattern_settings": {
@@ -222,6 +226,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.0,
+          "drill": 4.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
