@@ -1441,7 +1441,18 @@
 		(uuid "92761c09-a591-4c8e-af4d-e0e2262cb01d")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/ncara/OneDrive/IoT/Tools/KiCad/RP-Pico Libraries/Pico.wrl"
+	(model "/home/kriktinus/Dokumenty/GitHub/UFC/PCB/UFC_Lib/"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/UFC_Lib/Pico.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
