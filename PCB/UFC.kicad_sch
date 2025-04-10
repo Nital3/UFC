@@ -14439,6 +14439,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 287.02 367.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06786c8b-7d6f-43e0-954a-0c9208e6c88c")
+		(property "Reference" "R23"
+			(at 287.02 369.316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7KR"
+			(at 287.02 364.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 287.02 368.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 287.02 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC0603FR-7W4K7L"
+			(at 287.02 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4541d8f1-6a6f-4b59-92f4-09d8bfd33239")
+		)
+		(pin "2"
+			(uuid "8f37b7dc-1212-4c39-9d8f-431f15d07eba")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 270.51 361.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0684183b-e60a-4cfb-a1b0-c12820b1d136")
+		(property "Reference" "R14"
+			(at 272.796 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 266.7 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 272.288 361.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/418/NG_CD_1622949_BA-677568.pdf"
+			(at 270.51 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CRG0603F470R"
+			(at 270.51 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64039f9a-0767-4730-bb99-1ef7eb72ad36")
+		)
+		(pin "2"
+			(uuid "aff0ff4c-a9f3-4fd6-9233-2ca345bb1b9f")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 345.44 459.74 270)
 		(unit 1)
@@ -14503,6 +14637,74 @@
 			(project ""
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 97.79 242.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "071709f1-f3bd-4292-8a91-c57fef26def4")
+		(property "Reference" "C4"
+			(at 97.79 236.982 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 97.79 239.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 93.98 243.5352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/mlcc02_e-1307760.pdf"
+			(at 97.79 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LMK107BJ475KA-T"
+			(at 97.79 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29c72456-8585-4e86-90a5-4364bf6e4101")
+		)
+		(pin "1"
+			(uuid "8625afc8-a02f-4f82-b334-f9357d8fc59c")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -14597,42 +14799,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 81.28 242.57 270)
+		(lib_id "Device:R")
+		(at 355.6 367.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0f42bf15-5133-4db4-ab00-a7c1b51efe41")
-		(property "Reference" "C3"
-			(at 81.28 236.982 90)
-			(do_not_autoplace yes)
+		(uuid "115eb76c-0526-486b-bee0-de728683c597")
+		(property "Reference" "R26"
+			(at 355.6 369.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 81.28 239.014 90)
+		(property "Value" "4.7KR"
+			(at 355.6 364.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 77.47 243.5352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
-			(at 81.28 242.57 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 355.6 368.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14640,8 +14832,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MLASJ105BB5475MFNA01"
-			(at 81.28 242.57 0)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 355.6 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14649,16 +14841,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "1c16aa5c-107e-4556-bbe2-75dce0ef85d9")
+		(property "Description" "RC0603FR-7W4K7L"
+			(at 355.6 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "a02a73b9-25f7-4c88-b78d-0283f2a9f107")
+			(uuid "32a3f25b-39c7-4c5d-978e-d96c485ce36c")
+		)
+		(pin "2"
+			(uuid "85808da7-4a20-4606-9b13-a89a3f08df0a")
 		)
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "C3")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -14758,7 +14959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UFC_Lib_FP:F_R_0201_0603Metric_PAd0"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 331.47 446.532 90)
 			(effects
 				(font
@@ -14767,7 +14968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/418/NG_CD_1622949_BA-677568.pdf"
 			(at 331.47 448.31 0)
 			(effects
 				(font
@@ -14776,7 +14977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "CRG0603F470R"
 			(at 331.47 448.31 0)
 			(effects
 				(font
@@ -14951,7 +15152,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 125.73 326.3899 0)
 			(effects
 				(font
@@ -15431,207 +15632,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 316.23 361.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1dc876b0-6747-459e-a432-acb53f2466df")
-		(property "Reference" "R16"
-			(at 318.516 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470R"
-			(at 312.42 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UFC_Lib_FP:F_R_0201_0603Metric_PAd0"
-			(at 318.008 361.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 316.23 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ERJ-1GJF4700C"
-			(at 316.23 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc0a138a-460b-498d-97d5-b0028e290cbf")
-		)
-		(pin "2"
-			(uuid "73549919-c29a-4cbc-8fd4-baa042901742")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 264.16 367.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e0a7e5a-f7d7-4cb5-bbea-54f84f61e599")
-		(property "Reference" "R22"
-			(at 264.16 369.316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7KR"
-			(at 264.16 364.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 264.16 368.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
-			(at 264.16 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CRCW04024K70FKEDC"
-			(at 264.16 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b159daa-847e-47ff-8bbe-1c800c6f091a")
-		)
-		(pin "2"
-			(uuid "d8671955-5132-419b-887a-fc73cdb8b044")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 339.09 361.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20e6b1bc-0d4f-447f-bf55-b333abfb4147")
-		(property "Reference" "R17"
-			(at 341.376 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470R"
-			(at 335.28 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UFC_Lib_FP:F_R_0201_0603Metric_PAd0"
-			(at 340.868 361.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 339.09 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ERJ-1GJF4700C"
-			(at 339.09 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "edc24866-e74d-43de-abdb-1f5912792a1d")
-		)
-		(pin "2"
-			(uuid "476a18b4-b3fc-4a02-a6eb-0cc01e3613b2")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Motor:Fan_3pin")
 		(at 327.66 292.1 0)
 		(unit 1)
@@ -15773,15 +15773,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 45.72 242.57 270)
+		(at 115.57 242.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "243c7848-256a-4dd4-a75c-dd01e0939210")
-		(property "Reference" "C1"
-			(at 45.72 236.982 90)
+		(uuid "2395644f-6609-4b4f-98a2-1d040e445407")
+		(property "Reference" "C5"
+			(at 115.57 236.982 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15790,24 +15790,15 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 45.72 239.014 90)
+			(at 115.57 239.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 41.91 243.5352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
-			(at 45.72 242.57 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 111.76 243.5352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15815,8 +15806,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MLASJ105BB5475MFNA01"
-			(at 45.72 242.57 0)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/mlcc02_e-1307760.pdf"
+			(at 115.57 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LMK107BJ475KA-T"
+			(at 115.57 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15825,15 +15825,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c3297716-88e0-4c16-9e21-02d27808bf12")
+			(uuid "ab1de24c-f5b3-4ad7-92f1-22ba710364ea")
 		)
 		(pin "1"
-			(uuid "8860778d-ce5b-4a91-9ece-5d02c4586844")
+			(uuid "1719863c-827d-4328-b4e2-724ee0ccc3e6")
 		)
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "C1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -15847,7 +15847,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24d86471-f938-4ac2-8681-1bdda3f47b44")
 		(property "Reference" "CONN0"
 			(at 360.68 87.63 0)
@@ -15866,11 +15865,12 @@
 			)
 		)
 		(property "Footprint" "UFC_Lib_FP:NTC_connector_32x2"
-			(at 360.68 111.76 0)
+			(at 360.68 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.gotronik.pl/gniazdo-szpilkowe-proste-1x32pin-pod-listwe-goldpin-x5szt-p-5156.html"
@@ -16093,73 +16093,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 332.74 367.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24dbf96e-7c91-4dbd-b2ea-6c0a02af188f")
-		(property "Reference" "R25"
-			(at 332.74 369.316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7KR"
-			(at 332.74 364.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 332.74 368.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
-			(at 332.74 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CRCW04024K70FKEDC"
-			(at 332.74 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7502cbe9-9965-4c7a-98d3-e56c6a279856")
-		)
-		(pin "2"
-			(uuid "b791112b-aefc-4e52-a306-fa89406c7d2c")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 304.8 284.48 0)
 		(unit 1)
@@ -16227,6 +16160,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 361.95 361.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2593da10-69dd-4776-a442-5ba48a888f83")
+		(property "Reference" "R18"
+			(at 364.236 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 358.14 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 363.728 361.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/418/NG_CD_1622949_BA-677568.pdf"
+			(at 361.95 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CRG0603F470R"
+			(at 361.95 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdc51f5b-2d52-4318-b8f0-d584313fcbf5")
+		)
+		(pin "2"
+			(uuid "8d11b568-9c5e-4ce6-a49b-d3e0518eec97")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 377.19 218.44 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16250,7 +16250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 378.968 218.44 90)
 			(effects
 				(font
@@ -16259,7 +16259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?28773"
+		(property "Datasheet" "https://www.vishay.com/docs/20008/dcrcw.pdf"
 			(at 377.19 218.44 0)
 			(effects
 				(font
@@ -16268,7 +16268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRCW040210K0FKEDC"
+		(property "Description" "CRCW080510K0JNTC"
 			(at 377.19 218.44 0)
 			(effects
 				(font
@@ -16287,6 +16287,73 @@
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 247.65 361.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ab002bc-ff79-429a-a0e9-f9dff2a1f0d7")
+		(property "Reference" "R13"
+			(at 249.936 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 243.84 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 249.428 361.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/418/NG_CD_1622949_BA-677568.pdf"
+			(at 247.65 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CRG0603F470R"
+			(at 247.65 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93a6a157-aa93-47ab-9b89-9e674da595ce")
+		)
+		(pin "2"
+			(uuid "4eeb6c4b-e4d3-49c8-a5aa-061ea35b9593")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -16686,15 +16753,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 355.6 367.03 90)
+		(at 241.3 367.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "37371039-ddde-476f-9d41-965e1effc654")
-		(property "Reference" "R26"
-			(at 355.6 369.316 90)
+		(uuid "370e7ac0-bf7f-47b1-a273-0fe5295aa7eb")
+		(property "Reference" "R21"
+			(at 241.3 369.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16702,24 +16769,15 @@
 			)
 		)
 		(property "Value" "4.7KR"
-			(at 355.6 364.744 90)
+			(at 241.3 364.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 355.6 368.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
-			(at 355.6 367.03 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 241.3 368.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16727,8 +16785,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRCW04024K70FKEDC"
-			(at 355.6 367.03 0)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 241.3 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC0603FR-7W4K7L"
+			(at 241.3 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16737,82 +16804,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf7a2a2e-b0f5-467d-9188-98d82eed677f")
+			(uuid "6ab846b7-ac1e-4dcf-9ab0-e65542966003")
 		)
 		(pin "2"
-			(uuid "e4e689ce-9ce8-4433-8f4c-5f132ccdd6ab")
+			(uuid "111db29a-317b-4f26-b164-05b396cd6165")
 		)
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 287.02 367.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "390e3fb9-b7f1-4b30-8dcb-de7972a32ecc")
-		(property "Reference" "R23"
-			(at 287.02 369.316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7KR"
-			(at 287.02 364.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 287.02 368.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
-			(at 287.02 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CRCW04024K70FKEDC"
-			(at 287.02 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71b48dec-9dc9-4ea5-89a8-e14df78558a0")
-		)
-		(pin "2"
-			(uuid "b6c82b26-b8bd-40d5-811a-5adcf1407d36")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R23")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -17160,91 +17160,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 247.65 361.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43e129a5-0607-4428-afd1-8b45093c0416")
-		(property "Reference" "R13"
-			(at 249.936 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 243.84 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UFC_Lib_FP:F_R_0201_0603Metric_PAd0"
-			(at 249.428 361.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 247.65 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ERJ-1GJF4700C"
-			(at 247.65 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 247.65 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 247.65 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac177664-54d1-4eec-93f5-8a6afed99ae4")
-		)
-		(pin "2"
-			(uuid "5b46c64b-6349-4459-9b44-45f872230c5a")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 339.09 433.07 0)
 		(unit 1)
@@ -17411,6 +17326,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 151.13 242.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b0c56d3-a2dd-4b5b-91b9-299c1bd3ab39")
+		(property "Reference" "C7"
+			(at 151.13 236.982 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 151.13 239.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 147.32 243.5352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/mlcc02_e-1307760.pdf"
+			(at 151.13 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LMK107BJ475KA-T"
+			(at 151.13 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9eb1ab70-0d74-4e6d-b3bf-ad903964fa07")
+		)
+		(pin "1"
+			(uuid "54f75a08-b7d1-4053-bb1b-bfb96a1db4c1")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 370.84 0)
 		(unit 1)
@@ -17502,7 +17485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 24.13 243.5352 0)
 			(effects
 				(font
@@ -17511,7 +17494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/mlcc02_e-1307760.pdf"
 			(at 27.94 242.57 0)
 			(effects
 				(font
@@ -17520,7 +17503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MLASJ105BB5475MFNA01"
+		(property "Description" "LMK107BJ475KA-T"
 			(at 27.94 242.57 0)
 			(effects
 				(font
@@ -17539,6 +17522,73 @@
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "C0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 264.16 367.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5023512b-d238-49e7-a9d2-fb201fe4ae6e")
+		(property "Reference" "R22"
+			(at 264.16 369.316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7KR"
+			(at 264.16 364.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 264.16 368.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 264.16 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC0603FR-7W4K7L"
+			(at 264.16 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac041c5d-1b16-4f52-9e90-3f0e5d037e43")
+		)
+		(pin "2"
+			(uuid "ea8fc1c7-cbdd-42e6-ab84-34d5b3f22a66")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -17605,6 +17655,73 @@
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 316.23 361.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51030379-da7f-4336-a754-9626e994b3a4")
+		(property "Reference" "R16"
+			(at 318.516 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 312.42 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 318.008 361.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/418/NG_CD_1622949_BA-677568.pdf"
+			(at 316.23 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CRG0603F470R"
+			(at 316.23 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48ce32e1-2d63-4da6-b685-223e7f339e13")
+		)
+		(pin "2"
+			(uuid "62fa288c-d5b2-4a19-807f-dea13f7fd096")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -17778,6 +17895,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 309.88 367.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53f60f3c-695b-4ccb-ba9a-46567232ad1c")
+		(property "Reference" "R24"
+			(at 309.88 369.316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7KR"
+			(at 309.88 364.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 309.88 368.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 309.88 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC0603FR-7W4K7L"
+			(at 309.88 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec3c46e4-c02f-4645-8478-035babf0b1e5")
+		)
+		(pin "2"
+			(uuid "f312fb44-4a2c-4aa2-bd92-825868f5eb36")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 201.93 361.95 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17801,7 +17985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UFC_Lib_FP:F_R_0201_0603Metric_PAd0"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 203.708 361.95 90)
 			(effects
 				(font
@@ -17810,7 +17994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/418/NG_CD_1622949_BA-677568.pdf"
 			(at 201.93 361.95 0)
 			(effects
 				(font
@@ -17819,7 +18003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ERJ-1GJF4700C"
+		(property "Description" "CRG0603F470R"
 			(at 201.93 361.95 0)
 			(effects
 				(font
@@ -17838,6 +18022,73 @@
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 339.09 361.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "545db049-48a3-4eaf-8557-010985e68907")
+		(property "Reference" "R17"
+			(at 341.376 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 335.28 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 340.868 361.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/418/NG_CD_1622949_BA-677568.pdf"
+			(at 339.09 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CRG0603F470R"
+			(at 339.09 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe319a7b-9f90-4aba-81d2-bebec62d2c37")
+		)
+		(pin "2"
+			(uuid "7500670d-9785-40fc-b09b-89d97d671d28")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -17958,7 +18209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 322.072 457.2 90)
 			(effects
 				(font
@@ -17967,7 +18218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
 			(at 323.85 457.2 0)
 			(effects
 				(font
@@ -17976,7 +18227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MCA12060D3300BP500"
+		(property "Description" "RK73B1JTTDD473J"
 			(at 323.85 457.2 0)
 			(effects
 				(font
@@ -18127,6 +18378,73 @@
 			(project ""
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 224.79 361.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d5d8290-76a0-403c-96c5-278dfbf47ac5")
+		(property "Reference" "R12"
+			(at 227.076 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 220.98 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 226.568 361.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/418/NG_CD_1622949_BA-677568.pdf"
+			(at 224.79 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CRG0603F470R"
+			(at 224.79 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e92bc242-9a15-4da4-ab8f-7bfd5a03708c")
+		)
+		(pin "2"
+			(uuid "d985170c-886f-4afa-99a2-4bcdcfae593d")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -18333,73 +18651,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 361.95 361.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66c911bd-585f-44b7-9a0e-95e66dc25e5d")
-		(property "Reference" "R18"
-			(at 364.236 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470R"
-			(at 358.14 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UFC_Lib_FP:F_R_0201_0603Metric_PAd0"
-			(at 363.728 361.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 361.95 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ERJ-1GJF4700C"
-			(at 361.95 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f47c597-8ae4-487d-965e-3a09ac71507c")
-		)
-		(pin "2"
-			(uuid "7140bae4-e3bc-4eff-9ce3-93dcdef3b84a")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 339.09 436.88 0)
 		(unit 1)
@@ -18529,6 +18780,74 @@
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 81.28 242.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bb24d15-ff25-4552-ae0b-6357385530b0")
+		(property "Reference" "C3"
+			(at 81.28 236.982 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 81.28 239.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 77.47 243.5352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/mlcc02_e-1307760.pdf"
+			(at 81.28 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LMK107BJ475KA-T"
+			(at 81.28 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a097e22-d69c-4161-b1c0-5288efd7e50c")
+		)
+		(pin "1"
+			(uuid "afedd6a5-b8ef-45c3-a248-11a6507d8bf1")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -18702,15 +19021,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 151.13 242.57 270)
+		(at 133.35 242.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7996bee8-5094-45f6-993f-fbaa9f6f1d71")
-		(property "Reference" "C7"
-			(at 151.13 236.982 90)
+		(uuid "75a9f8de-afeb-4090-b78d-b9c05e4b1329")
+		(property "Reference" "C6"
+			(at 133.35 236.982 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18719,24 +19038,15 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 151.13 239.014 90)
+			(at 133.35 239.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 147.32 243.5352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
-			(at 151.13 242.57 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 129.54 243.5352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18744,8 +19054,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MLASJ105BB5475MFNA01"
-			(at 151.13 242.57 0)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/mlcc02_e-1307760.pdf"
+			(at 133.35 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LMK107BJ475KA-T"
+			(at 133.35 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18754,15 +19073,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "92beecb9-290d-493a-bebc-877c5aa727ba")
+			(uuid "8083a983-3e6d-47b6-9c42-1823ee4e0bfa")
 		)
 		(pin "1"
-			(uuid "4df6920d-b66a-424a-be3a-7fc1051b8451")
+			(uuid "e6fc2e9b-5aeb-40b7-a992-7ee289e0f1bf")
 		)
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -19545,74 +19864,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 133.35 242.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8dfbad4f-b214-4dcf-9b46-ed4b10f633d5")
-		(property "Reference" "C6"
-			(at 133.35 236.982 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 133.35 239.014 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 129.54 243.5352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
-			(at 133.35 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MLASJ105BB5475MFNA01"
-			(at 133.35 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f8d74a07-d9e4-4c6d-9130-77967be266e3")
-		)
-		(pin "1"
-			(uuid "b1552117-39d4-42e3-b4ca-017d2e5515b8")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 213.36 284.48 0)
 		(unit 1)
@@ -19859,73 +20110,6 @@
 			(project ""
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 218.44 367.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93fcfac7-4d43-4445-a5e7-8bc1d3783c94")
-		(property "Reference" "R20"
-			(at 218.44 369.316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7KR"
-			(at 218.44 364.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 218.44 368.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
-			(at 218.44 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CRCW04024K70FKEDC"
-			(at 218.44 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63a5971d-ca09-41db-ae13-b476e4f7b509")
-		)
-		(pin "2"
-			(uuid "bf4e8ea7-1dee-4915-8304-c12fe423f605")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -20238,74 +20422,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 63.5 242.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99d737af-a854-479f-a5c7-0c4aacb7b208")
-		(property "Reference" "C2"
-			(at 63.5 236.982 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 63.5 239.014 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 59.69 243.5352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
-			(at 63.5 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MLASJ105BB5475MFNA01"
-			(at 63.5 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fcd752d9-8e7b-4b6d-a9e6-c479f6ffc69b")
-		)
-		(pin "1"
-			(uuid "f22aecb4-6445-4634-bb58-3e57bcb2fa67")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 224.79 213.36 270)
 		(unit 1)
@@ -20467,73 +20583,6 @@
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 241.3 367.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab3d6dad-c9dd-41cd-878b-ccfc5b9fd7bf")
-		(property "Reference" "R21"
-			(at 241.3 369.316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7KR"
-			(at 241.3 364.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 241.3 368.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
-			(at 241.3 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CRCW04024K70FKEDC"
-			(at 241.3 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ffffc92-eb67-4ece-8f55-0c35442de04a")
-		)
-		(pin "2"
-			(uuid "0948edc0-7129-40b4-a58d-47ecda9cb440")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -20764,6 +20813,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 332.74 367.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b47d8218-7cfa-4f95-9db1-1d3b22e89a6a")
+		(property "Reference" "R25"
+			(at 332.74 369.316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7KR"
+			(at 332.74 364.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 332.74 368.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 332.74 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC0603FR-7W4K7L"
+			(at 332.74 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e2a46dd-94fc-43f3-b8ab-0cbdf27b21b5")
+		)
+		(pin "2"
+			(uuid "7af47ddd-f4f8-4d37-a1da-186b3c7c9ec1")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 212.09 447.04 270)
 		(unit 1)
@@ -20891,6 +21007,73 @@
 			(project ""
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 293.37 361.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8563228-a4cc-454a-ba98-a3798bf2ed36")
+		(property "Reference" "R15"
+			(at 295.656 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 289.56 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 295.148 361.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/418/NG_CD_1622949_BA-677568.pdf"
+			(at 293.37 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CRG0603F470R"
+			(at 293.37 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10f408b7-53b3-4346-8fac-d76012ee4f29")
+		)
+		(pin "2"
+			(uuid "c9d836d6-7d9e-42c5-b95e-aba5cb94688e")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -21195,73 +21378,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 270.51 361.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3bc911e-a5af-4101-9b09-edb31c439ee4")
-		(property "Reference" "R14"
-			(at 272.796 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470R"
-			(at 266.7 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UFC_Lib_FP:F_R_0201_0603Metric_PAd0"
-			(at 272.288 361.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 270.51 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ERJ-1GJF4700C"
-			(at 270.51 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20adb0a7-72b7-4549-8b8f-06bc62d974c3")
-		)
-		(pin "2"
-			(uuid "6e86199c-3730-4e90-a39a-92c165465eef")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 121.92 331.47 0)
 		(unit 1)
@@ -21322,74 +21438,6 @@
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 97.79 242.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9e1fe0b-2e28-4b7f-9cb1-ba50f8e80d9c")
-		(property "Reference" "C4"
-			(at 97.79 236.982 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 97.79 239.014 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 93.98 243.5352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
-			(at 97.79 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MLASJ105BB5475MFNA01"
-			(at 97.79 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "46745d91-42f0-4163-b231-8fd8f0c2e09c")
-		)
-		(pin "1"
-			(uuid "04c0e479-50f6-469c-9128-4c625ef55c7e")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -21744,7 +21792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 378.968 157.48 90)
 			(effects
 				(font
@@ -21753,7 +21801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?28773"
+		(property "Datasheet" "https://www.vishay.com/docs/20008/dcrcw.pdf"
 			(at 377.19 157.48 0)
 			(effects
 				(font
@@ -21762,7 +21810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRCW040210K0FKEDC"
+		(property "Description" "CRCW080510K0JNTC"
 			(at 377.19 157.48 0)
 			(effects
 				(font
@@ -22025,73 +22073,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 309.88 367.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dae578a4-1f97-4e7d-b098-5c6fc3f63606")
-		(property "Reference" "R24"
-			(at 309.88 369.316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7KR"
-			(at 309.88 364.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 309.88 368.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
-			(at 309.88 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CRCW04024K70FKEDC"
-			(at 309.88 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69059a4b-cc79-46c3-a9cc-6159f8351985")
-		)
-		(pin "2"
-			(uuid "a3e4377d-3587-4431-9128-f2ef35de8899")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 119.38 245.11 0)
 		(unit 1)
@@ -22152,6 +22133,74 @@
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 63.5 242.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db7c3e5d-6fc2-4f6d-bf3c-a4de7e831256")
+		(property "Reference" "C2"
+			(at 63.5 236.982 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 63.5 239.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 59.69 243.5352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/mlcc02_e-1307760.pdf"
+			(at 63.5 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LMK107BJ475KA-T"
+			(at 63.5 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3f8c717-bc36-4a93-b60d-10e3f8352a67")
+		)
+		(pin "1"
+			(uuid "5d4057cf-9a3e-447d-aad8-73301eb42562")
+		)
+		(instances
+			(project "UFC"
+				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -22379,42 +22428,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 115.57 242.57 270)
+		(lib_id "Device:R")
+		(at 218.44 367.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e61a42f3-4f18-4825-a4ba-a7cbf9d30b38")
-		(property "Reference" "C5"
-			(at 115.57 236.982 90)
-			(do_not_autoplace yes)
+		(uuid "e0df1670-7b85-4df6-ad79-3ee867b497fc")
+		(property "Reference" "R20"
+			(at 218.44 369.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 115.57 239.014 90)
+		(property "Value" "4.7KR"
+			(at 218.44 364.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 111.76 243.5352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
-			(at 115.57 242.57 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 218.44 368.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22422,8 +22461,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MLASJ105BB5475MFNA01"
-			(at 115.57 242.57 0)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 218.44 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22431,16 +22470,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "34d77b92-d45c-464c-80a8-7f62785b7498")
+		(property "Description" "RC0603FR-7W4K7L"
+			(at 218.44 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "798fb97c-cedc-417a-acb3-82eb6623c16a")
+			(uuid "6186c344-a15e-4e3d-93f0-534eb6b424ad")
+		)
+		(pin "2"
+			(uuid "1782424a-d850-4846-9154-44a6d0b4749a")
 		)
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "C5")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -22607,7 +22655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 195.58 368.808 90)
 			(effects
 				(font
@@ -22616,7 +22664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
 			(at 195.58 367.03 0)
 			(effects
 				(font
@@ -22625,7 +22673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRCW04024K70FKEDC"
+		(property "Description" "RC0603FR-7W4K7L"
 			(at 195.58 367.03 0)
 			(effects
 				(font
@@ -22807,41 +22855,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 293.37 361.95 180)
+		(lib_id "Device:C")
+		(at 45.72 242.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f832b76e-5af3-4012-a99f-38594b8794e3")
-		(property "Reference" "R15"
-			(at 295.656 361.95 0)
+		(uuid "ff1c5be5-ec5c-4d1d-8d90-af064d7221a4")
+		(property "Reference" "C1"
+			(at 45.72 236.982 90)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470R"
-			(at 289.56 361.95 0)
+		(property "Value" "4.7u"
+			(at 45.72 239.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "UFC_Lib_FP:F_R_0201_0603Metric_PAd0"
-			(at 295.148 361.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 293.37 361.95 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 41.91 243.5352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22849,8 +22889,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ERJ-1GJF4700C"
-			(at 293.37 361.95 0)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/mlcc02_e-1307760.pdf"
+			(at 45.72 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22858,83 +22898,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "1e1cae27-edc6-4026-8ea6-24f93de605a6")
+		(property "Description" "LMK107BJ475KA-T"
+			(at 45.72 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "450f2164-dfbf-4aa7-80f4-7ce6bc3f1ee3")
+			(uuid "e03df1e3-4569-4f65-9a0a-5e867932622e")
+		)
+		(pin "1"
+			(uuid "90d1f907-aba0-4d69-98d7-2204a50e0792")
 		)
 		(instances
 			(project "UFC"
 				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 224.79 361.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f93984a5-aada-4d13-9fed-b63a375fa94b")
-		(property "Reference" "R12"
-			(at 227.076 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470R"
-			(at 220.98 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UFC_Lib_FP:F_R_0201_0603Metric_PAd0"
-			(at 226.568 361.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 224.79 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ERJ-1GJF4700C"
-			(at 224.79 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36e59d5a-0538-41dd-8a16-f875d1214ba2")
-		)
-		(pin "2"
-			(uuid "0f157066-b033-4b55-ac6d-af7255ac5f64")
-		)
-		(instances
-			(project "UFC"
-				(path "/342a3fd1-b517-460b-a70f-feeb7547ac4b"
-					(reference "R12")
+					(reference "C1")
 					(unit 1)
 				)
 			)
